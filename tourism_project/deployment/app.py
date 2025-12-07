@@ -9,7 +9,7 @@ import numpy as np
 model_path = 'model_building/best_xgboost_model.pkl'
 
 # Download and load the model
-model_path = hf_hub_download(repo_id="rekhchan/MLoP", filename="best_xgboost_model.joblib")
+model_path = hf_hub_download(repo_id="rekhchan/MLoPs", filename="best_xgboost_model.joblib")
 model = joblib.load(model_path)
 
 # Ensure the model path is correct based on where it was saved
